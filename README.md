@@ -18,8 +18,9 @@ You have to enable SSH function in your Xiaomi router Mini first. For more detai
 
 ### How to install ###
 
+
 - Downlaod files
-	1. git clone https://github.com/deren/mi\_mini\_pppoe\_relay
+	1. git clone https://github.com/deren/mi_mini_pppoe_relay
 	2. [ZIP file](https://github.com/deren/mi_mini_pppoe_relay/archive/master.zip "Download ZIP file")
 - Update `DEFAULT_PW` in **mi\_mini\_pppoe\_relay\_config.cmd**
 - If need, update `DEFAULT_IP` and `DEFAULT_ID` as well
