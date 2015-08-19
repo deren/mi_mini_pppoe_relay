@@ -35,8 +35,11 @@ plink.exe -ssh -t -C -2 -pw %DEFAULT_PW% %DEFAULT_ID%@%DEFAULT_IP% %PROGRAM_DIR%
 :: run program
 plink.exe -ssh -t -C -2 -pw %DEFAULT_PW% %DEFAULT_ID%@%DEFAULT_IP% /etc/init.pppoe.relay.sh
 
+:: sync
+plink.exe -ssh -t -C -2 -pw %DEFAULT_PW% %DEFAULT_ID%@%DEFAULT_IP% sync
+
 :: system reboot
-::plink.exe -ssh -t -C -2 -pw %DEFAULT_PW% %DEFAULT_ID%@%DEFAULT_IP% reboot
+plink.exe -ssh -t -C -2 -pw %DEFAULT_PW% %DEFAULT_ID%@%DEFAULT_IP% reboot
 
 echo.
 echo.

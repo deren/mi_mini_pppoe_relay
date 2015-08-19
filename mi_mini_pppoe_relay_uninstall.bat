@@ -24,7 +24,7 @@ plink.exe -ssh -t -C -2 -pw %DEFAULT_PW% %DEFAULT_ID%@%DEFAULT_IP% rm -f /etc/in
 plink.exe -ssh -t -C -2 -pw %DEFAULT_PW% %DEFAULT_ID%@%DEFAULT_IP% /etc/init.d/soft_fast_path on
 
 :: system reboot
-::plink.exe -ssh -t -C -2 -pw %DEFAULT_PW% %DEFAULT_ID%@%DEFAULT_IP% reboot
+plink.exe -ssh -t -C -2 -pw %DEFAULT_PW% %DEFAULT_ID%@%DEFAULT_IP% reboot
 
 echo.
 echo.
